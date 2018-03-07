@@ -41,7 +41,6 @@ dialog.matches('obtenercertificado', [
         session.send(`Enviando certificado a **${args.response}**`)
     }
 ]);
-
 dialog.matches('Saludar', [
     function (session, args, next) {
         session.send(`Hola, mi nombre es **Pepe** ${luisApp} resolveré las preguntas más frecuentas que usualmente tienen nuestros clientes.`)
